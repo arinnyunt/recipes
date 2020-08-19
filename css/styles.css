@@ -1,0 +1,93 @@
+body{
+  font-family:"Indie Flower", cursive;
+  color:white;
+}
+
+.container-fluid{
+  padding:0;
+}
+
+/* Navigation Bar */
+#title{
+  background-color: #9dab86;
+}
+
+.title-header{
+  font-family: "indie Flower", cursive;
+  font-size: 3rem;
+  padding-left: 5%;
+}
+
+.nav-link{
+  font-size: 1.5rem;
+}
+
+
+/* Food Picture Carousel */
+
+.carousel-text-body{
+  padding: 2% 20%;
+  text-align:center;
+  background-color: #9dab86;
+}
+
+.carousel-text{
+  font-size:4rem;
+}
+
+.carousel-inner{
+height:500px
+}
+.carousel-item{
+min-height:300px;
+}
+
+@media(max-width:500px){
+.carousel .carousel-inner{
+height:auto;
+ }
+}
+
+/* Recipes */
+
+#recipe-1{
+  background-color:#e6a157;
+}
+
+.body-text{
+  text-align:center;
+  color:white;
+}
+
+.recipe-body{
+  text-align:center;
+  padding: 4% 0;
+}
+
+.recipe-img{
+  border-radius:10%;
+}
+
+.recipe-text-body{
+  padding: 15% 5%;
+}
+
+#recipe-2{
+  background-color: #eb8242;
+}
+
+#recipe-3{
+  background-color:#c9753d;
+}
+
+/* Footer */
+
+#footer{
+  color:grey;
+  text-align:center;
+  padding:2%;
+}
+
+.social-icon{
+  padding: 10px;
+}
